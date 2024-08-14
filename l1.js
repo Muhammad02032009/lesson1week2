@@ -18,7 +18,7 @@
 // function tostr(num)
 // {
 //     if (typeof num==typeof "num"){return Number(num)}
-//     else {return  ('"'+num+'"')} 
+//     return  `"${num}"`
 // }
 // console.log(tostr(345));
 
@@ -33,16 +33,17 @@
 
 
 
-// function rev(str)
-// {
-//     cnt=" "
-//     for (let i=0;i< str.length;i++ )
-//     {
-//         cnt+=str[i].toUpperCase()
-//     }
-//     return cnt
-// }
-// console.log(rev("abc"));
+function rev(str)
+{
+    cnt=" "
+    for (let i=str.length-1;i>=0;i-- )
+    {
+       cnt+=str[i];
+       
+    }
+    return cnt.toUpperCase()
+}
+console.log(rev("abc"));
 
 
 

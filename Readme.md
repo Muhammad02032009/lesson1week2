@@ -135,6 +135,63 @@ __15.__ repeat()
 let str = "hello"
 console.log(str.repeat(3)) // "hellohellohello"
 ```
-_____
+
+
+
+### Number metods:
+
+1. `Math.floor` adadhoro be baqiya mebarorad.
+   ```javascript 
+   console.log(Math.floor(5/2)) // 2
+   ```
+
+2. `Math.round` adadhoro ba cadom raqame nazdic ast hamonro mebarorad yane logiki kor mekunad
+    ```javascript 
+   console.log(Math.round(5.6)) // 6
+   ```
+
+3. `Math.ceil` adadho agar baqiya doshta boshand  yakto ziyod mekunad 
+   ```javascript 
+   console.log(Math.ceil(5.2)) // 6
+   ```
+
+4. `Math.max` adadhooi maximalni
+   ```javascript 
+   console.log(Math.max(5,2,3)) // 5
+   ```
+
+5. `Math.min` adadhooi minimalni
+   ```javascript 
+   console.log(Math.min(5,2,3)) // 2
+   ```
+
+6. `Math.pow` adadhoro ba daraja mebardorad.
+   ```javascript 
+   console.log(Math.pow(5,2)) // 25
+   ```
+
+7. `Math.sqrt`  reshai adadhoro mebarorad
+    ```javascript 
+   console.log(Math.sqrt(4)) // 2
+   ```
+
+8. `Math.abs`  moduli adadhoro  mebarorad.
+   ```javascript 
+   console.log(Math.abs(-2)) // 2
+   ```
+
+9. `Math.random`  randomni adadhoro mebarorad.
+   ```javascript 
+   console.log(Math.random()) // 0.75345436
+   ```
+
+10. `Math.isNaN`  raqam budan yo nabudani onro mefahmonad
+   ```javascript 
+   console.log(Math.isNaN("jhsbfk")) // true
+   ```
+
 ![alt text](<Снимок экрана 2024-08-10 105607.png>)
+
+
+
 
